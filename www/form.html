@@ -1,5 +1,6 @@
-<html>
+<html lang="ru">
   <head>
+    <meta charset="UTF-8">
     <style>
       form {
         width: 300px;
@@ -51,7 +52,7 @@
       window.onload = function () {
         document.querySelector("form").classList.add("loaded");
       };
-      document.getElementById("demoForm").addEventListener("submit", function(e){
+      document.getElementById("myForm").addEventListener("submit", function(e){
     const username = document.querySelector("[name='username']").value;
     alert("Вы ввели имя: " + username);
         });
